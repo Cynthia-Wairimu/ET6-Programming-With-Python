@@ -16,19 +16,19 @@ Together, comparing and asserting are a good way to test your understanding.
 
 # Check if two values are the same using ==
 
-equality = 1 == 1.0
-equality = 1 == 1
-equality = 1 == "1"
-equality = True == "True"
-equality = "dog" == "Dog"
+equality = 1 == 1.0  # True
+equality = 1 == 1  # True
+equality = 1 == "1"  # False
+equality = True == "True"  # False
+equality = "dog" == "Dog"  # False
 
 # Check if two values are not the same using !=
 
-difference = 1 != 1.0
-difference = 1 != 1
-difference = 1 != "1"
-difference = True != "True"
-difference = "dog" != "Dog"
+difference = 1 != 1.0  # False
+difference = 1 != 1  # False
+difference = 1 != "1"  # True
+difference = True != "True"  # True
+difference = "dog" != "Dog"  # True
 
 # --- Asserting ---
 
